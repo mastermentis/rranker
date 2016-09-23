@@ -1,0 +1,344 @@
+Sayantan Das
+Software Engineer at Verific/Electra Design Automation Pvt Ltd
+sayantand@gmail.com
+
+Summary
+
+A total of 15 years of experience in EDA and chip verification domain. These can be categorized as follows: 
+
+Four and half years of research experience in the Formal and ABV verification of digital circuit designs with
+ Formal-V group in IIT Kharagpur. I have been taking an active role in all major activities of the group since
+ 2001 and have authored 15 publications in Journals and reputed international Conferences. I have also played a
+ key role in preparing the course materials for the Formal Verification Course} organized by Formal-V group in
+ 2005. I have also presented some lectures on temporal logics and model checking as a part of this course.
+
+2 years of experiance in Mentor graphics: In this periord I worked as a key development member responcible
+ for routing of FPGAs in Mentors Emulator Velocee. My major contribution was around developing timing
+ accurate algorithms for routing signals and define strategies to use soft virtual wiring to enable passing
+ multiple signals across same pin using time based multiplexing. I also worked in developing specific tests for
+ testing routing on large emulators like Gande and Maximus. The tests included mechanism to test all possible
+ connections in the hardware.
+
+8 years of experience in Verific Design Automation. Verific Design Automation Inc. develops and sells source
+ code (C++) Verilog, SystemVerilog, and VHDL front-ends (parsers, analyzers, elaborators) as well as a generic
+ hierarchical netlist database for EDA applications.
+During the first 5 years I have actively worked on synthesis of several SystemVerilog constructs like assertions,
+ classes and interfaces.
+
+My recent works involves developing a new flow of Elaboration over Verific data structures. This is called
+ hierarchy based elaboration. Where we create a light weight language independent hierarchy representation of
+ the design. This structure is successfully used to write many complex user application with minimum memory/
+runtime overhead.
+
+Specialties
+
+Verification, Formal Techniques, C/C++. Algorithms, Complexity(space and time), Verilog and Vhdl,
+ Elaborator, Analyzer, perl, simulation,
+
+Experience
+Software Engineer  at   Electra Design Automation Pvt Ltd
+
+Page1
+
+May 2008  -  Present (8 years 3 months)
+Design Algorithms for Verific Tool
+
+Software Engineer  at   Verific Design Automation, Inc
+April 2008  -  Present (8 years 4 months)
+Electra does all its business through Verific Design Automation. Verific Design Automation Inc. develops
+ and sells source code (C++) Verilog, SystemVerilog, and VHDL front-ends (parsers, ana-lyzers, elaborators)
+ as well as a generic hierarchical netlist database for EDA applications.
+
+Many EDA and semiconductor companies worldwide are shipping products incorporating Verific's Verilog
+ and VHDL technology, with a combined customer base of over 40,000 users. Applications include RTL
+ simulation, FPGA synthesis, Model Checking, Functional Verification, Hardware   Acceleration, RTL
+ Debug, Logic Equivalence Checking, RTL Floorplanning, HDL Entry, and Design for Test. I am part of the
+ team to develop analyzer and elaborator. One of my major contribution is to develop elaboration in mixed
+ language flow and support of system verilog class synthesis.
+
+I am also the person behind developing efficient synthesis algorithms to synthesize SVA to RTL. In this flow
+ Verific converts a assertion to a synthesizable RTL logic. 
+
+www.verific.com
+
+Technical Lead  at   Mentor Graphics
+May 2006  -  April 2008  (2 years)
+2 years of experiance in Mentor graphics: In this periord I worked as a key development member responcible
+ for routing of FPGAs in Mentors Emulator Velocee. My major contribution was around developing timing
+ accurate algorithms for routing signals and define strategies to use soft virtual wiring to enable passing
+ multiple signals across same pin using time based multiplexing. I also worked in developing specific tests
+ for testing routing on large emulators like Gande and Maximus. The tests included mechanism to test all
+ possible connections in the hardware.
+
+Research Scholar  at   Intel Project SRIC IIT Kharagpur
+March 2003  -  May 2006  (3 years 3 months)
+In this project we have developed both structural and functional coverage metrics to analyze specification
+ completeness. We have developed a prototype tool called CovAnalyzer to measure the completeness of a
+ specification with respect to static fault model. The tool takes the specification in Forspec (Intel) and reports
+ the percentage of faults covered by it. CovAnalyzer uses Intel's FPV suite at the backend which is interfaced
+ using perl scripts. The basic coverage algorithm is written using C. The tool is tested using some standard
+ BUS protocols and with some designs from Intel. Our next technology was the development of SpecMatcher.
+ SpecMatcher measures functional coverage      by comparing specification written in multiple levels of
+
+Page2
+
+ design development phase. The prototype tool takes LTL as the input specification language and shows the
+ functional gap in terms of new LTL properties.
+
+Intern  at   Intel
+June 2005  -  September 2005  (4 months)
+In this project I worked on development of optimization techniques to tackle capacity issues faced by
+ Intel's Forspec coverage analyzer. I had wrote scripts which interface their tool and also incorporate the
+ optimization techniques. As a part of the work, I also ran the tool on several live designs from Intel and
+ analyzed the results to report some useful specification gaps.
+
+Publications
+Design intent coverage revisited
+ACM Trans. Design Autom. Electr. Syst. 14(1) (2009)   2009
+Authors: Sayantan Das, Prasenjit Basu, Pallab Dasgupta
+Design intent coverage is a formal methodology for analyzing the gap between a formal architectural
+ specification of a design and the formal functional specifications of the component RTL blocks of the design.
+ In this article we extend the design intent coverage methodology to hybrid specifications containing both
+ state-machines and formal properties. We demonstrate the benefits of this extension in two domains of
+ considerable recent interest, namely (a) the use of auxiliary state-machines in formal specifications, and (b)
+ the use of modest sized RTL blocks in the design intent coverage analysis.
+Design-Intent Coverage - A New Paradigm for Formal Property Verification. IEEE Trans. on CAD of
+Integrated Circuits and Systems 25(10)
+IEEE Trans. on CAD of Integrated Circuits and Systems 25(10)   2006
+Authors: Sayantan Das
+It is essential to formally ascertain whether the register-transfer level (RTL) validation effort effectively
+ guarantees the correctness with respect to the design's architectural intent. The design's architectural intent
+ can be expressed in formal properties. However, due to the capacity limitations of formal verification,
+ these architectural properties cannot be directly verified on the RTL. As a result, a set of lower level RTL
+ properties are developed and verified against the RTL modules. In a top-down design approach, the architect
+ would ideally like to formally guarantee the coverage of the architectural intent at the time of creating
+ the specifications for the component RTL modules (that is, before they are passed to the designers for
+ implementation). In this paper, the authors present: 1) a method for checking whether the RTL properties are
+ covering the architectural properties, that is, whether verifying the RTL properties guarantees the correctness
+ of the design's architectural intent; 2) a method to identify which architectural properties are still uncovered,
+ that is, not guaranteed by the RTL properties; and 3) a methodology for representing the gap between the
+ specifications in a legible form
+Discovering the input assumptions in specification refinement coverage
+ASP DAC 2006   2006
+Authors: Sayantan Das
+
+Page3
+
+Sayantan DasThe design of a large chip is typically hierarchical - large modules are recursively expanded into a collection
+ of sub-modules. Each expansion refines the design due to the addition of level specific details. We believe
+ that a similar approach is necessary to scale the capacity of formal property verification technology - as
+ the design gets refined from one level to another, the formal specification must also be refined to reflect
+ the level specific design decisions. At the heart of this approach we propose a checker that identifies the
+ input assumptions under which the refined specification "covers" the original specification. This enables
+ the validation engineer to focus the verification effort on the remaining input scenarios thereby reducing the
+ number of target coverage points for simulation.
+Test generation games from formal specifications. DAC 2006
+DAC 2006   2006
+Authors: Sayantan Das, Ansuman Banerjee, BHASKAR PAL, Prasenjit Basu
+In this paper, we present methods for automatic test generation from formal specifications.These are used
+ to create intelligent test benches that are able to cover corner case behaviors in much less time.We have
+ developed a prototype tool for intelligent test generation within the layered test bench architecture proposed
+ in RVM.We present results on verification IPs of standard bus protocols to show the effectiveness of our
+ approach.
+Synthesis of system verilog assertions
+DATE '06 Proceedings of the conference on Design, automation and test in Europe: Designers' forum Pages
+ 70-75   2006
+Authors: Sayantan Das, Prasenjit Basu, Pallab Dasgupta
+In recent years, Assertion-Based Verification is being widely accepted as a key technology in the pre-silicon
+ validation of system-on-chip(SOC) designs. The System Verilog language integrates the specification of
+ assertions with the hardware description. In this paper we show that there are several compelling reasons for
+ synthesizing assertions in hardware, and present an approach for synthesizing System Verilog Assertions
+ (SVA) in hardware. Our method investigates the structure of SVA properties and decomposes them into
+ simple communicating parallel hardware units that together act as a monitor for the property. We present
+ a tool that performs this synthesis, and also show that the chip area required by the monitors for a industry
+ standard ABV IP for the ARM AMBA AHB protocol is quite modest.
+What lies between design intent coverage and model checking?
+DATE '06 Proceedings of the conference on Design, automation and test in Europe: Designers' forum   
+Authors: Sayantan Das, Rizi Mohanty, Prasenjit Basu, Pallab Dasgupta
+Practitioners of formal property verification often work around the capacity limitations of formal verification
+ tools by breaking down properties into smaller properties that can be checked on the sub-modules of the
+ parent module. To support this methodology, we have developed a formal methodology for verifying
+ whether the decomposition is indeed sound and complete, that is, whether verifying the smaller properties
+ on the submodules actually guarantees the original property on the parent module. In practice, however
+ designers do not write properties for all modules and thereby our previous methodology was applicable to
+ selected cases only. In this paper we present new formal methods that allow us to handle RTL blocks in the
+ analysis. We believe that the new approach will significantly widen the scope of the methodology, thereby
+
+Page4
+
+ enabling the validation engineer to handle much larger designs than admitted by existing formal verification
+ tools.
+SAT based solutions for consistency problems in formal property specifications for open systems.
+ICCAD 2005   2005
+Authors: Sayantan Das, Prasenjit Basu, Pallab Dasgupta
+Formal Methods for Analyzing the Completeness of an Assertion Suite against a High-Level Fault Model
+VLSI 2005   2005
+Authors: Sayantan Das
+One of the emerging challenges in formal property verification (FPV) technology is the problem of deciding
+ whether sufficient properties have been written to cover the design intent. Existing literature on FPV
+ coverage does not solve this problem adequately, since they primarily analyze the coverage of a specification
+ against a given implementation. On the other hand, we consider the task of determining the coverage of a
+ formal specification against a high-level fault model that is independent of any specific implementation. We
+ show that such a coverage analysis discovers behavioral gaps in the specification and prompts the design
+ architect to add more properties to close the behavioral gaps. Our results establish that the coverage analysis
+ task at this level is computationally complex, but it is possible to obtain a conservative estimate of the
+ coverage at low cost.
+Formal Verification Coverage: Are the RTL-Properties Covering the Design?s Architectural Intent?
+DATE 2004   2004
+Authors: Sayantan Das
+Formal verification coverage: computing the coverage gap between temporal specifications
+ICCAD 2004   2004
+Authors: Sayantan Das, Prasenjit Basu, Pallab Dasgupta
+Syntax-driven Approximate Coverage Analysis for an Assertion Suite against a High-Level Fault Model.
+VDAT 2005   2005
+Authors: Sayantan Das, Pallab Dasgupta, Prasenjit Basu
+One of the emerging challenges in formal property verification (FPV) technology is the problem of deciding
+ whether sufficient properties have been written to validate the functionality of the design. Existing literature
+ on FPV coverage does not solve this problem adequately, since they primarily analyze the coverage of a
+ specification against a given implementation. In a recent work [4] we introduced a methodology to determine
+ the coverage of a formal specification against a high-level
+fault model that is independent of any specific implementation. It is shown there that such a coverage analysis
+ discovers gaps in the specification and prompts the designers to add more properties to close such gaps. We
+ have also presented the 2EXPTIME lower bound of our coverage analysis algorithm. However, later we
+ found that some simple preprocessing of
+the specification enables us to determine a large fraction of the high-level fault coverage In this paper, we
+ present a simple methodology to determine fault coverage from the syntactic structure of the formula. We
+ also establish the soundness of our coverage estimation methodology. We have tested our algorithm on the
+
+Page5
+
+ ARM AMBA AHB protocol specification and found that the preprocessing step typically reduces the overall
+ coverage computation time by a considerable amount.
+Test Plan Coverage by Formal Property Verification.
+VDAT 2005   
+Authors: Sayantan Das
+Typically formal property suites are derived manually  from informal design speci#cations. This
+ formalization often requires direct interaction between the validation engineer. One of the emerging
+ challenges in formal property ver-    neers and the architects of the design/protocol, and aims to
+i#cation (FPV) technology is the problem of examining the     develop a speci#cation that is both sound and
+ complete. A completeness of a formal speci#cation before the devel-       speci#cation is said to be sound if
+ it accepts every implementation of the RTL. Existing literature on FPV coverage        mentation that satis#es
+ the architect ’s design intent, and is mainly deals with the coverage of a speci#cation against a    said to be
+ complete if every invalid implementation has one
+given implementation. On the other hand, we consider the      or more runs that refute the speci#cation.
+ Lack of sound-task of determining the coverage of a formal speci#cation     ness is typically easier to
+ debug, since model checkers pro-against a high-level stuck-at fault model that is implemen-   duce a
+ counterexample whenever a property fails on an im-tation independent. We show that such a coverage
+ analysis     plementation. The counterexample can be examined by the
+discovers behavioral gaps in the speci#cation and prompts     designer. If it is real then the implementation
+ has a bug,the design architect to add more properties to close the be-  otherwise the speci#cation is not
+ sound.havioral gaps. Our results establish that the coverage anal-
+ysis task at this level is computationally complex, but minorrelaxations in the coverage approach reduces the
+ complex-ity and makes the approach more suitable in practice.
+Estimating buffer limits in communicating concurrent producer-consumer systems
+CIT 2003   2003
+Authors: Sayantan Das
+Synthesis of SystemVerilog Assertion(SVA)
+IEEE Design Automation Conference(DAC) 2015   June 10, 2015
+Authors: Sayantan Das, Mala Bandyopadhyay, Abhijit Chakrabarty
+Today, Assertion-Based Verification is the most popular method in pre-silicon system on chip(SOC)
+ verification. The Systemverilog language has been accordingly enhanced to describe a wide range of
+ properties using System Verilog Assertions(SVA). In this paper we present a methodology to synthesize
+ SVA into highly programmable and optimized logic. We have presented a method to convert an assertion to
+ an equivalent combinational circuit and synthesize it. We have built an engine to create Verilog models for
+ these assertion and embed them in the original design. We have tested out tool on many industry standard
+ designs and protocols like ABV IP, ARM AMBA AHB and PCI protocols. The models are then simulated
+ and their results
+are compared with industry standard simulators to verify their consistency.
+
+Page6
+
+Skills & Expertise
+C++
+Algo
+Algorithms
+EDA
+Simulations
+VHDL
+Verilog
+Debugging
+Perl
+Data Structures
+ASIC
+Functional Verification
+Analyzer
+FPGA
+C
+Semiconductors
+Testing
+SystemVerilog
+Logic Synthesis
+
+Education
+Indian Institute of Technology, Kharagpur
+PhD, Formal Verification. (Coverage), 2003 - 2006
+Activities and Societies:  During the course I have published about 20 tehnical papers in many reputed journals
+ and conferences like TCAD, TODAES, DAC, DATE, ICCAD, VLSI Conference, ASP DAC e.t.c Passed out
+ with First Class
+IIT Kharagpur
+Master of Technology, Computer Science and Engineering, 2001 - 2003
+Activities and Societies:  During this course I have published a technical paper in CIT Bhubaneshwar. Passed
+ out with a CGPA of 9.41
+Jadavpur University
+Bachelor of Engineering, Computer Science and Engineering, 1997 - 2001
+Activities and Societies:  Passed out with 84 %
+South Point High School
+High School, Science, 1992 - 1996
+
+Interests
+Functional Verification, Formal Techniques, HDL Parsers, elaborators. SystemVerilog Assertions, Functional
+ Coverage
+
+Volunteer Experience
+
+Page7
+
+Jt Program Chair: PhD Forum  at   29th International Conference on VLSI Design and the 15th
+International Conference on Embedded Syst
+September 2015  -  Present
+This year the 29th International Conference on VLSI Design 2016 is scheduled to be held in January 4th, 5th
+ and 6th 2016 in ITC Kolkata (http://vlsidesignconference.org/).
+
+I was invited by the Program Chairs to attend the Program Committee meeting today where they have
+ selected me to become a Joint Chair for the Phd Forum Submission Committee.
+
+My responsibilities would include 1) preparing proposal for PhD Forum submission and 2) selecting the
+ work which will be presented during the conference. I will also have to chair the session during those
+ presentations. 
+
+Page8
+
+Sayantan Das
+Software Engineer at Verific/Electra Design Automation Pvt Ltd
+sayantand@gmail.com
+
+3 person has recommended Sayantan
+
+"I worked with Sayantan for about two years, and both of us started nearly together on the same project. In
+one sentence, I would call Sayantan a domain expert in the area he was working. He is very detail-oriented,
+hard working and intelligent. He took complete ownership of the module, and was the single point of contact
+for any issues in that domain. His pleasing personality and cool approach impresses me the most. He will be
+an asset to any organization."
+
+— Kingshuk Banerjee
+
+, managed Sayantan indirectly at Mentor Graphics
+
+"My association with Sayantan goes long back. We did bachelors, masters and PhD together. What amazed
+me most is his cool yet serious attitude to life as well as academics. He has an exceptional problem solving
+skill which comes from very clear theoretical knowledge. His sincerity to work is unquestionable. He must be
+an asset to any team."
+
+— Prasenjit Basu , studied with Sayantan at Indian Institute of Technology, Kharagpur
+
+"A Brilliant Student with Right Attitude , Excellent Foresight and a Dear Friend"
+
+— Kingshuk Choudhury TOGAF® 9
+
+, studied with Sayantan at Jadavpur University
+
+Contact Sayantan on LinkedIn
+
+Page9
+
+
